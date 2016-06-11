@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MI9APICleriston" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Desenvolvimento\\MI9\\MI9Service\\MI9API\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Desenvolvimento\\MI9\\MI9Service\\MI9API\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

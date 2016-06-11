@@ -11,7 +11,8 @@ namespace MI9API.Controllers
 {
     public class FilterController : ApiController
     {
-        
+
+        [HttpPost]
         public HttpResponseMessage Post(FullPayLoad JsonObject)
         {
             HttpResponseMessage response;
@@ -27,6 +28,7 @@ namespace MI9API.Controllers
             return response;
         }
 
+        [HttpGet]
         public HttpResponseMessage Get()
         {
             return Request.CreateResponse("teste ok");

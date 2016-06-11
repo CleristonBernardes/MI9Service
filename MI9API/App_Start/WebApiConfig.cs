@@ -17,7 +17,7 @@ namespace MI9API
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                defaults: new { controller = "filter", id = RouteParameter.Optional }
             );
         }
     }

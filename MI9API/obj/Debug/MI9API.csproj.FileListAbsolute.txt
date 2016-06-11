@@ -26,3 +26,9 @@ D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\System.Web.Http.WebHost.xml
 D:\Desenvolvimento\MI9\MI9Service\MI9API\obj\Debug\MI9API.csprojResolveAssemblyReference.cache
 D:\Desenvolvimento\MI9\MI9Service\MI9API\obj\Debug\MI9API.dll
 D:\Desenvolvimento\MI9\MI9Service\MI9API\obj\Debug\MI9API.pdb
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\Microsoft.Web.Infrastructure.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\Swashbuckle.Core.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\WebActivatorEx.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API\bin\System.IdentityModel.Tokens.Jwt.xml
