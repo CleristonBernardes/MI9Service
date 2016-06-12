@@ -38,8 +38,7 @@ namespace MI9TestModule.Base
         {
             return _EmptyFullPayLoad;
         }
-
-
+        
         public FullPayLoad PayLoads()
         {
             return _FullPayLoad;

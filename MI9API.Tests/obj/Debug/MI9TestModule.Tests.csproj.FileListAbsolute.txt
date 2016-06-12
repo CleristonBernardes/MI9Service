@@ -33,3 +33,7 @@ D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\obj\Debug\MI9TestModule.Tests.csp
 D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\obj\Debug\MI9API.Tests.dll
 D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\obj\Debug\MI9API.Tests.pdb
 D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\bin\Debug\Base\SampleInput.json
+D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\bin\Debug\MI9API.Tests.dll.config
+D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\bin\Debug\WebActivatorEx.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\bin\Debug\Swashbuckle.Core.dll
+D:\Desenvolvimento\MI9\MI9Service\MI9API.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll

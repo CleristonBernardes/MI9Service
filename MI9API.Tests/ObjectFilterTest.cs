@@ -15,6 +15,9 @@ namespace MI9TestModule.Tests
     [TestClass]
     public class ObjectFilterTest: FilterValidator
     {
+        /// <summary>
+        /// Testing null parameter
+        /// </summary>
         [TestMethod]
         public void ValidateNullInput()
         {
@@ -30,6 +33,9 @@ namespace MI9TestModule.Tests
             response.Error.Should().Be("Could not decode request: JSON parsing failed");
         }
 
+        /// <summary>
+        /// Testing null object
+        /// </summary>
         [TestMethod]
         public void ValidateNullPayLoad()
         {
@@ -45,6 +51,9 @@ namespace MI9TestModule.Tests
             response.Error.Should().Be("Could not decode request: JSON parsing failed");
         }
 
+        /// <summary>
+        /// Testing empty list
+        /// </summary>
         [TestMethod]
         public void ValidateEmptyInput()
         {
@@ -61,6 +70,9 @@ namespace MI9TestModule.Tests
             response.Response.Count.Should().Be(0);
         }
 
+        /// <summary>
+        /// Testing all criterias ok
+        /// </summary>
         [TestMethod]
         public void ValidateInputWithAllCriteriasOK()
         {
@@ -79,7 +91,9 @@ namespace MI9TestModule.Tests
 
         }
 
-
+        /// <summary>
+        /// Testing with few items out of the validation criteria
+        /// </summary>
         [TestMethod]
         public void ValidateInputWithFewCriteriasOK()
         {
@@ -103,6 +117,9 @@ namespace MI9TestModule.Tests
             data.RemovePayLoad(3);
         }
 
+        /// <summary>
+        /// Testing payload without image list
+        /// </summary>
         [TestMethod]
         public void ValidateInputWithNoImage()
         {
@@ -125,6 +142,9 @@ namespace MI9TestModule.Tests
 
         }
         
+        /// <summary>
+        /// Testing payload with massive payloads
+        /// </summary>
         [TestMethod]
         public void ValidateInputWithMassiveValues()
         {
@@ -149,7 +169,9 @@ namespace MI9TestModule.Tests
             data.RemovePayLoad(100000);
         }
 
-
+        /// <summary>
+        /// Testing the json from file
+        /// </summary>
         [TestMethod]
         public void ValidateInputUsingJsonFile()
         {

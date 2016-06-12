@@ -11,6 +11,11 @@ namespace MI9TestModule.Base
 {
     public class FilterValidator
     {
+        /// <summary>
+        /// Calling the controller
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public HttpResponseMessage Validate(FullPayLoad input)
         {
             // Arrange
@@ -23,6 +28,11 @@ namespace MI9TestModule.Base
             return controller.Post(input);
         }
 
+        /// <summary>
+        /// Comparing the source and the result
+        /// </summary>
+        /// <param name="filtered">filtered list</param>
+        /// <param name="full">full list</param>
         public void Compare(FilteredPayLoad filtered, FullPayLoad full)
         {
             foreach(var response in filtered.Response.Take(5000))
